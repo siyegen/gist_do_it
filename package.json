@@ -1,0 +1,11 @@
+{
+  "name": "Remind_Me",
+  "description": "send my lazy ass emails",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "sendgrid": "0.4.4",
+    "dotenv": "0.2.0",
+    "request": "2.30.0"
+  }
+}
