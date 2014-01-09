@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "sendgrid": "0.4.4",
+    "sendgrid": "1.0.0-rc.1.0",
     "express": "3.4.4",
     "dotenv": "0.2.0",
     "request": "2.30.0"

@@ -23,8 +23,8 @@ reminder.getTodo(current_todo, function(error, content) {
     email.setFrom(to_email);
     email.setSubject('Did you do it yet? - ' + small_date);
     email.setText(content);
-    email.addHeaders({'X-Sent-Using': 'SendGrid-API'});
-    email.addHeaders({'X-Transport': 'web'});
+    email.addHeader({'X-Sent-Using': 'SendGrid-API'});
+    email.addHeader({'X-Transport': 'web'});
 
     sendgrid.send(email, function(err, json) {
         if (err) { return console.error(err); }
